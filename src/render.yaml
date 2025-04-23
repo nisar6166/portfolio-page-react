@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-portfolio
+    runtime: node
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    env: node
