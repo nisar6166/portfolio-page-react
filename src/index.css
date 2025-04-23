@@ -1,0 +1,42 @@
+/* Global styles */
+:root {
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --dark: #212529;
+    --light: #f8f9fa;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark);
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Smooth scrolling for anchor links */
+  html {
+    scroll-behavior:smooth;
+  }
+  
+  /* Section headings */
+  .section-title {
+    position: relative;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .section-title:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--primary);
+  }
+
+  
